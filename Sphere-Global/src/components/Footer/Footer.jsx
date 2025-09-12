@@ -50,19 +50,26 @@ const Footer = () => {
 
         <div className="relative mx-auto max-w-7xl px-6 sm:px-8">
           <div className="flex flex-col gap-6 items-start justify-between py-10 sm:flex-row sm:items-center">
-            <div className="flex items-center gap-3">
-              <div className="h-9 w-9 grid place-items-center rounded-md bg-teal-600">
+            <Link to="/" className="focus:outline-none">
+              <div className="flex items-center gap-3">
+                <img
+                  src="https://res.cloudinary.com/djwmrc2zr/image/upload/v1757678977/cropped-Logo_Signet_nkjonj.png"
+                  alt="Sphere Global Logo"
+                  className="h-9 w-9 object-contain"
+                />
+                {/* <div className="h-9 w-9 grid place-items-center rounded-md bg-teal-600">
                 <div className="h-4 w-4 rotate-12 rounded-sm bg-white/90"></div>
+              </div> */}
+                <div>
+                  <p className="text-xl font-semibold tracking-tight text-slate-900 leading-none">
+                    SPHERE GLOBAL
+                  </p>
+                  <p className="mt-0.5 text-xs text-slate-500 uppercase tracking-wide">
+                    Solutions
+                  </p>
+                </div>
               </div>
-              <div>
-                <p className="text-xl font-semibold tracking-tight text-slate-900 leading-none">
-                  AVASO
-                </p>
-                <p className="mt-0.5 text-xs text-slate-500 uppercase tracking-wide">
-                  Technology Solutions
-                </p>
-              </div>
-            </div>
+            </Link>
 
             {/* Social Icons */}
             <div className="flex items-center gap-3">
@@ -190,7 +197,7 @@ const Footer = () => {
                       to="#"
                       className="hover:text-slate-900 transition-colors"
                     >
-                      Life at AVASO
+                      Life at SPHERE
                     </Link>
                   </li>
                 </ul>
@@ -250,7 +257,7 @@ const Footer = () => {
                     to="#"
                     className="hover:text-slate-900 transition-colors"
                   >
-                    AVASO at a Glance
+                    SPHERE at a Glance
                   </Link>
                 </li>
                 <li>
@@ -295,7 +302,7 @@ const Footer = () => {
               </h3>
               <div className="h-px w-full bg-slate-200"></div>
               <p className="text-sm text-slate-600">
-                Get the latest AVASO information delivered to your inbox.
+                Get the latest SPHERE information delivered to your inbox.
               </p>
 
               <form className="relative" onSubmit={handleSubmit}>
@@ -338,7 +345,7 @@ const Footer = () => {
 
           {/* Bottom Bar */}
           <div className="flex flex-col gap-4 items-start justify-between border-t border-slate-200 py-6 text-xs text-slate-500 sm:flex-row sm:items-center">
-            <p>©2025 AVASO Technology Solutions | All Rights Reserved.</p>
+            <p>©2025 SPHERE Technology Solutions | All Rights Reserved.</p>
             <p className="order-3 sm:order-none">
               Powered by{" "}
               <a
