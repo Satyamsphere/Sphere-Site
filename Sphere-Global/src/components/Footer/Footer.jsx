@@ -8,6 +8,11 @@ import {
 } from "lucide-react";
 
 const Footer = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission here
+  };
+
   return (
     <>
       {/* ======================= CTA Top Band ======================= */}
@@ -51,7 +56,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-xl font-semibold tracking-tight text-slate-900 leading-none">
-                  SPHERE
+                  AVASO
                 </p>
                 <p className="mt-0.5 text-xs text-slate-500 uppercase tracking-wide">
                   Technology Solutions
@@ -98,28 +103,68 @@ const Footer = () => {
               <div className="h-px w-full bg-slate-200"></div>
               <ul className="space-y-3 text-sm">
                 <li>
-                  <Link to="#">Digital Workplace</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Digital Workplace
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Cloud & Application Services</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Cloud & Application Services
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Depot & Logistics Services</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Depot & Logistics Services
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Strategic Staffing & Payroll Services</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Strategic Staffing & Payroll Services
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Consulting & Professional Services</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Consulting & Professional Services
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Service Desk</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Service Desk
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Enterprise Services</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Enterprise Services
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Value Added Reseller</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Value Added Reseller
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -133,10 +178,20 @@ const Footer = () => {
                 <div className="h-px w-full bg-slate-200"></div>
                 <ul className="space-y-3 text-sm">
                   <li>
-                    <Link to="#">Current Openings</Link>
+                    <Link
+                      to="#"
+                      className="hover:text-sky-900 transition-colors"
+                    >
+                      Current Openings
+                    </Link>
                   </li>
                   <li>
-                    <Link to="#">Life at SPHERE</Link>
+                    <Link
+                      to="#"
+                      className="hover:text-slate-900 transition-colors"
+                    >
+                      Life at AVASO
+                    </Link>
                   </li>
                 </ul>
               </nav>
@@ -148,13 +203,28 @@ const Footer = () => {
                 <div className="h-px w-full bg-slate-200"></div>
                 <ul className="space-y-3 text-sm">
                   <li>
-                    <Link to="#">News & Announcements</Link>
+                    <Link
+                      to="#"
+                      className="hover:text-slate-900 transition-colors"
+                    >
+                      News & Announcements
+                    </Link>
                   </li>
                   <li>
-                    <Link to="#">Case Studies</Link>
+                    <Link
+                      to="#"
+                      className="hover:text-slate-900 transition-colors"
+                    >
+                      Case Studies
+                    </Link>
                   </li>
                   <li>
-                    <Link to="#">Blog</Link>
+                    <Link
+                      to="#"
+                      className="hover:text-slate-900 transition-colors"
+                    >
+                      Blog
+                    </Link>
                   </li>
                 </ul>
               </nav>
@@ -168,22 +238,52 @@ const Footer = () => {
               <div className="h-px w-full bg-slate-200"></div>
               <ul className="space-y-3 text-sm">
                 <li>
-                  <Link to="#">About Us</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    About Us
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">SPHERE at a Glance</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    AVASO at a Glance
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Leadership Team</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Leadership Team
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Partners</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Partners
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Corporate Social Responsibility</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Corporate Social Responsibility
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Sustainability</Link>
+                  <Link
+                    to="#"
+                    className="hover:text-slate-900 transition-colors"
+                  >
+                    Sustainability
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -195,10 +295,10 @@ const Footer = () => {
               </h3>
               <div className="h-px w-full bg-slate-200"></div>
               <p className="text-sm text-slate-600">
-                Get the latest SPHERE information delivered to your inbox.
+                Get the latest AVASO information delivered to your inbox.
               </p>
 
-              <form className="relative">
+              <form className="relative" onSubmit={handleSubmit}>
                 <label htmlFor="email" className="sr-only">
                   Email
                 </label>
@@ -238,7 +338,7 @@ const Footer = () => {
 
           {/* Bottom Bar */}
           <div className="flex flex-col gap-4 items-start justify-between border-t border-slate-200 py-6 text-xs text-slate-500 sm:flex-row sm:items-center">
-            <p>©2025 SPHERE Technology Solutions | All Rights Reserved.</p>
+            <p>©2025 AVASO Technology Solutions | All Rights Reserved.</p>
             <p className="order-3 sm:order-none">
               Powered by{" "}
               <a
@@ -249,15 +349,15 @@ const Footer = () => {
               </a>
             </p>
             <nav aria-label="Legal" className="flex items-center gap-4">
-              <a href="#" className="hover:text-slate-700">
+              <a href="#" className="hover:text-slate-700 transition-colors">
                 Privacy Policy
               </a>
               <span className="text-slate-300">|</span>
-              <a href="#" className="hover:text-slate-700">
+              <a href="#" className="hover:text-slate-700 transition-colors">
                 Cookie Policy
               </a>
               <span className="text-slate-300">|</span>
-              <a href="#" className="hover:text-slate-700">
+              <a href="#" className="hover:text-slate-700 transition-colors">
                 Sitemap
               </a>
             </nav>
