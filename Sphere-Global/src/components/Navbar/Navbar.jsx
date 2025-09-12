@@ -98,7 +98,7 @@ const Navbar = () => {
                 Sphere
               </span>
               <span className="text-[10px] text-neutral-500 uppercase tracking-wide">
-                Technology Solutions
+                Global Solutions
               </span>
             </div>
           </Link>
@@ -210,7 +210,7 @@ const Navbar = () => {
           {/* Contact button */}
           <div className="hidden md:flex items-center gap-3">
             <Link
-              to="/contact"
+              to="/contactus"
               className="inline-flex items-center rounded-md border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-neutral-800 hover:bg-neutral-50 hover:border-neutral-400 transition-colors"
             >
               Contact Us
@@ -345,6 +345,7 @@ const Navbar = () => {
                           ))}
                         </div>
                       ) : (
+
                         <ul className="p-1.5">
                           {group.items.map((item, i) => (
                             <li key={i}>
@@ -358,6 +359,7 @@ const Navbar = () => {
                             </li>
                           ))}
                         </ul>
+
                       )}
                     </div>
                   )}
@@ -374,6 +376,8 @@ const Navbar = () => {
                 Contact Us
               </Link>
             </div>
+
+            
           </div>
         </div>
       )}
