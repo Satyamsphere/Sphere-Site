@@ -22,12 +22,15 @@ import LifeAtSphere from "../pages/Career/lifeAtSphere/LifeAtSphere";
 import Industry from "../pages/Services/industry/Industry";
 import BpoSolutions from "../pages/Services/bpoSolutions/BpoSolutions";
 import Consulting from "../pages/Services/consulting/Consulting";
+import ContactUs from "../components/ContactUs/ContactUs.jsx"
+
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
+
         <Route path="/services/*" element={<Services />} />
         <Route path="/services/industry" element={<Industry />} />
         <Route path="/services/bpo" element={<BpoSolutions />} />
@@ -76,6 +79,13 @@ const AppRoutes = () => {
             </div>
           }
         />
+
+        {/* <Route path="/about" element={<About />} /> */}
+
+        <Route path="/contactus" element={<ContactUs />} />
+
+        {/*<Route path="/services" element={<Services />} /> */}
+
       </Route>
     </Routes>
   );
